@@ -118,6 +118,7 @@ INT8 × INT8 → INT32 → Requantization → INT8
 
 ---
 
+
 ##  Project Structure
 
 ```bash
@@ -141,7 +142,7 @@ INT8 × INT8 → INT32 → Requantization → INT8
 │   └── best_model.pth
 │
 └── README.md
-
+```
 ---
 
 ##  Key Contributions
