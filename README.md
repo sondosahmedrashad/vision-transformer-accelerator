@@ -78,6 +78,7 @@ The hardware accelerator is composed of:
 ### ViT Processing Flow
 
 ![ViT Flow](docs/vit_flow.png)
+> Figure: End-to-end Vision Transformer processing pipeline from input image to classification.
 
 1. Input image → INT8 quantization  
 2. Patch embedding  
@@ -102,6 +103,7 @@ INT8 × INT8 → INT32 → Requantization → INT8
 ### Matrix Multiplication Unit (MMU)
 
 ![MMU Architecture](docs/mmu.png)
+> Figure: Wavefront-based systolic array architecture used for efficient matrix multiplication.
 
 ### Implemented Modules:
 - `mmu_modular_complete.sv` → Matrix multiplication (Systolic Array)
