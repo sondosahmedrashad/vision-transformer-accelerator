@@ -44,6 +44,10 @@ out = (input × m) >> s
 ---
 
 ##  Hardware Architecture
+### System-Level Architecture
+
+![Hardware Architecture](docs/architecture.png)
+> Figure: High-level hardware architecture of the ViT accelerator.
 
 The hardware accelerator is composed of:
 
@@ -71,6 +75,9 @@ The hardware accelerator is composed of:
 ---
 
 ##  Dataflow Pipeline
+### ViT Processing Flow
+
+![ViT Flow](docs/vit_flow.png)
 
 1. Input image → INT8 quantization  
 2. Patch embedding  
@@ -92,6 +99,9 @@ INT8 × INT8 → INT32 → Requantization → INT8
 ---
 
 ##  RTL Implementation
+### Matrix Multiplication Unit (MMU)
+
+![MMU Architecture](docs/mmu.png)
 
 ### Implemented Modules:
 - `mmu_modular_complete.sv` → Matrix multiplication (Systolic Array)
