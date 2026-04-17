@@ -120,28 +120,27 @@ INT8 × INT8 → INT32 → Requantization → INT8
 
 ##  Project Structure
 
-
+```bash
 ├── rtl/
-│ ├── mmu_modular_complete.sv
-│ ├── softmax_pipelined.sv
-│ ├── softmax_lut_pkg.sv
-│ ├── gelu.sv
-│ ├── gelu_pipelined.sv
-│ ├── layernorm_pipelined.sv
-│ ├── matrix_ping_pong_buffer.sv
-│ ├── dyadic_params.sv
-│ └── vit_top_integrated.sv
+│   ├── mmu_modular_complete.sv
+│   ├── softmax_pipelined.sv
+│   ├── softmax_lut_pkg.sv
+│   ├── gelu.sv
+│   ├── gelu_pipelined.sv
+│   ├── layernorm_pipelined.sv
+│   ├── matrix_ping_pong_buffer.sv
+│   ├── dyadic_params.sv
+│   └── vit_top_integrated.sv
 │
 ├── tb/
-│ └── vit_tb.sv
+│   └── vit_tb.sv
 │
 ├── modeling/
-│ ├── vit-cifar-10-ver2.ipynb
-│ ├── vit-cifar-10-ver3.ipynb
-│ └── best_model.pth
+│   ├── vit-cifar-10-ver2.ipynb
+│   ├── vit-cifar-10-ver3.ipynb
+│   └── best_model.pth
 │
-├── README.md
-
+└── README.md
 
 ---
 
