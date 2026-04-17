@@ -1,2 +1,2 @@
 # vision-transformer-accelerator
-Hardware implementation of Vision Transformer (ViT) using Verilog
+Hardware implementation of Vision Transformer (ViT) using System Verilog.
